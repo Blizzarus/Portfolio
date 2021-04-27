@@ -1,0 +1,49 @@
+/* In this file: CSS media queries */
+
+@media screen and (max-width: 1024px) 
+{
+    .cover
+      {
+          font-size: 1em;
+      }
+
+      .transitional
+      {
+          border: 1px solid lightblue;
+          height: 30px;
+          overflow: hidden;
+          transition: height 2s
+      }
+
+      .transitional:hover
+      {
+          height: 160px;
+      }
+}
+
+@media screen and (max-width: 800px) 
+  {
+      .cover, .card, #accordion-container, #carousel-container
+      {
+          position: unset;
+          float: unset;
+          width: 98%;
+          margin: auto;
+          border: none;
+          background-color: unset;
+          margin-top: .5%;
+      }
+
+      .transitional
+      {
+          border: 1px solid lightblue;
+          height: 30px;
+          overflow: hidden;
+          transition: height 2s
+      }
+
+      .transitional:hover
+      {
+          height: 240px;
+      }
+  }

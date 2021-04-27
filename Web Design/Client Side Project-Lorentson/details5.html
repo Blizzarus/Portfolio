@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This page uses: Bootstrap Navbar, Breadcrumbs, Jumbotron, and Modal -->
+        <!--Benjamin C. Lorentson-->
+        <title>Xbox LIVE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/media.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body class="backgroundImage">
+        <main>
+            <header class="pageTitle">
+              <img src="images/Xbox_Logo.png" id="header-logo" alt="xbox logo">
+                Welcome to Xbox LIVE!
+            </header>
+            <br>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html">Info</a>
+                      </li>
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Games & More
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="details1.html">Halo: MCC</a>
+                        <a class="dropdown-item" href="details2.html">Forza</a>
+                        <a class="dropdown-item" href="details3.html">Sea of Thieves</a>
+                        <a class="dropdown-item" href="details4.html">Ori & The Blind Forest</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="details5.html">Xbox LIVE</a>
+                        <a class="dropdown-item" href="details6.html">Get Our Newsletter!</a>
+                        <a class="dropdown-item" href="details7.html">Upcomng Events</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Games & More</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Xbox LIVE</li>
+                </ol>
+            </nav>
+            <br>
+            <section>
+                <article class="jumbotron">
+                    <h1 class="display-4">Xbox LIVE: The Xbox online service.</h1>
+                    <p class="lead">Xbox LIVE allows users to connect with Xbox online services to get the most out of their gaming console.</p>
+                    <hr class="my-4">
+                    <p>Do more with your Xbox account with a <b>Free</b> Xbox LIVE Silver membership!</p>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#silverModal">
+                      Learn More
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="silverModal" tabindex="-1" role="dialog" aria-labelledby="silverModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="silverModalLabel">Xbox LIVE Silver</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Anyone with a Microsoft account linked to their Xbox profile can sign up for Xbox LIVE Silver for free at any time.  Doing so will allow the profile to sync data like settings, saves, achievements, and more between consoles.  It will also allow the use of party chat over Xbox LIVE, so you can talk to your friends while you play!  Get connected with Xbox LIVE Silver now!
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="my-4">
+                    <p>Get the ultimate Xbox online experience with an Xbox LIVE Gold membership!</p>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#goldModal">
+                      Learn More
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="goldModal" tabindex="-1" role="dialog" aria-labelledby="goldModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="goldModalLabel">Xbox LIVE Gold</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              Xbox LIVE Gold is available as an upgrade for anyone who has set up their account with an Xbox LIVE Silver membership, or as an option upon setting up your account initially.  Gold allows players to freely connect to Xbox online servers and play games online, with friends or other players all around the world.  Matchmaking services will group players up in a lobby so that every game pairs you with a new set of teammates and opponents.  Gold also gives users access to <b>Free</b> games every month, up to $100 in value, at no extra charge!  Check out Xbox LIVE Gold today!
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </article>
+            </section>
+            <footer>
+            <br>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html">Info</a>
+                      </li>
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Games & More
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="details1.html">Halo: MCC</a>
+                        <a class="dropdown-item" href="details2.html">Forza</a>
+                        <a class="dropdown-item" href="details3.html">Sea of Thieves</a>
+                        <a class="dropdown-item" href="details4.html">Ori & The Blind Forest</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="details5.html">Xbox LIVE</a>
+                        <a class="dropdown-item" href="details6.html">Get Our Newsletter!</a>
+                        <a class="dropdown-item" href="details7.html">Upcomng Events</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <br>
+            </footer>
+        </main>
+    </body>
+
+</html>

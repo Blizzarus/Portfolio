@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This page uses: Bootstrap Navbar, Bootstrap Media Object, CSS Opacity, JavaScript window.onscroll method -->
+        <!--Benjamin C. Lorentson-->
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/animation.css" rel="stylesheet" />
+        <link href="css/media.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="scripts/scroll.js"></script>
+    </head>
+
+    <body class="backgroundImage">
+        <main>
+            <header class="pageTitle">
+              <img src="images/Xbox_Logo.png" id="header-logo" alt="xbox logo">
+                Welcome to the Xbox Showcase!
+            </header>
+            <br>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html">Info</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Games & More
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="details1.html">Halo: MCC</a>
+                        <a class="dropdown-item" href="details2.html">Forza</a>
+                        <a class="dropdown-item" href="details3.html">Sea of Thieves</a>
+                        <a class="dropdown-item" href="details4.html">Ori & The Blind Forest</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="details5.html">Xbox LIVE</a>
+                        <a class="dropdown-item" href="details6.html">Get Our Newsletter!</a>
+                        <a class="dropdown-item" href="details7.html">Upcomng Events</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <br>
+            <section class="center">
+                        <article class="media">
+                            <video class="mr-3" controls id="myVideo">
+                                <source src="video/HaloMCCDemo.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <div class="media-body">
+                              <h1 class="mt-0">Check out new Crossplay in MCC!</h1>
+                              <p class="light-text">Now available on Xbox One and PC, "Halo: The Master Chief Collection" has been optimized for cross-platform support!</p>
+                            </div>
+                        </article>
+                <br>
+                <article class="cover">
+                      <a href="details1.html">
+                      <img src="images/Halo_Cover.jpg" class="cover-img">
+                      </a>
+                      <p class="cover-text">The original six Halo titles return in this all-in-one set, enhanced for Xbox One S/X, and now including Halo: Reach and the Halo 3: ODST campaign.  Whether you're a newcomer or an old Halo veteran, this package is the perfect way to experience Halo the way it was meant to be played!</p>
+                </article>
+                <article class="cover">
+                      <a href="details2.html">
+                      <img src="images/Forza_Cover.jpg" class="cover-img">
+                      </a>
+                      <p class="cover-text">For the first time in the Forz series, hit the road in an open-world shared with thousands of other players.  Explore everything historic Britain has to offer, with stunning graphics, beautiful scenery and over 450 new cars to collect!  Become a Horizon Superstar in Forza Horizon 4.</p>
+                </article>
+                <article class="cover">
+                      <a href="details3.html">
+                      <img src="images/SoT_Cover.jpg" class="cover-img">
+                      </a>
+                      <p class="cover-text">Sea of Theieves is the ultimate priate experience.  Explore the high seas with all your friends as your pillage, plunder, and loot your way to pirate glory.  Chart courses to find buried treasure or battle fearsome monsters in this limitless world, where anything you see is yours for the taking!</p>
+                </article>
+                <article class="cover">
+                      <a href="details4.html">
+                      <img src="images/Ori_Cover.jpg" class="cover-img">
+                      </a>
+                      <p class="cover-text">Bring life back to the dying forest of Nibel in Ori and the Blind Forest.  Experience the heartwarming tale as Ori explores the fading woods, searching for the answers behind the forest's fate, and the key to brining it back.  This stunningly designed masterpiece will leave you wanting more!</p>
+                </article>
+            </section>
+            <footer>
+              <br>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html">Info</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Games & More
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="details1.html">Halo: MCC</a>
+                        <a class="dropdown-item" href="details2.html">Forza</a>
+                        <a class="dropdown-item" href="details3.html">Sea of Thieves</a>
+                        <a class="dropdown-item" href="details4.html">Ori & The Blind Forest</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="details5.html">Xbox LIVE</a>
+                        <a class="dropdown-item" href="details6.html">Get Our Newsletter!</a>
+                        <a class="dropdown-item" href="details7.html">Upcomng Events</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <br>
+            </footer>
+        </main>
+    </body>
+
+</html>

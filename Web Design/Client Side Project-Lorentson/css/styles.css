@@ -1,0 +1,197 @@
+/* In this file: CSS opacity, CSS transitions */
+
+body
+{
+  font-family:sans-serif;
+}
+
+.backgroundImage
+{
+    background-image: url('../images/Xbox_Background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    opacity: .92;
+    min-height: 3200px;
+}
+
+.backgroundColor
+{
+    background-color: darkgreen;
+}
+
+.media
+{
+    font-size: 2em;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: white;
+    color:white;
+    font-weight:bold;
+}
+
+.light-text
+{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.cover-text
+{
+    font-size: 1.2em;
+    border: white;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    float: right;
+}
+
+.cover
+{
+    position: relative;
+    float: left;
+    width: 22.5%;
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid darkgreen;
+    background-color: black;
+}
+
+.cover-img
+{
+    width: 98%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.thumbnail-img
+{
+    width: 98%;
+    height: 120px;
+    position: relative;
+    float: left;
+}
+
+.transitional
+{
+    border: 1px solid lightblue;
+    height: 30px;
+    overflow: hidden;
+    transition: height 2s
+}
+
+.transitional:hover
+{
+    height: 130px;
+}
+
+header
+{
+    min-height: 50px;
+    width:100%;
+}
+
+.pageTitle
+{
+    font-size:4em;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+nav
+{
+    min-height: 25px;
+    width:100%;
+    padding:1%;
+    text-align: center;
+    color:white;
+}
+
+section
+{
+    min-height: 300px;
+    width:100%;
+}
+
+footer
+{
+    min-height: 50px;
+    width:100%;
+    bottom: 0;
+}
+
+.center
+{
+    margin: auto;
+    width: 98%;
+    padding: 10px;
+}
+
+#myVideo
+{
+  width: 100%;
+  position: unset;
+  z-index: 3;
+}
+
+#header-logo
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: 10%;
+}
+
+#carousel-container
+{
+    position: relative;
+    float: left;
+    padding: 10px;
+    width: 70%;
+}
+
+#accordion-container
+{
+    position: relative;
+    float: left;
+    padding: 10px;
+    width: 25%;
+}
+
+#card1_header
+{
+    background-color: darkslategray;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#card1_footer
+{
+    background-color: darkslategray;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    font-style: italic;
+}
+
+#card2_header
+{
+    background-color: darkgreen;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#card2_footer
+{
+    background-color: darkgreen;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    font-style: italic;
+}

@@ -1,0 +1,211 @@
+body
+{
+  font-family:sans-serif;
+}
+main
+{
+  width:100%;
+  margin:auto;
+  min-height:300px;
+  overflow: auto;
+}
+main > header
+{
+  width:100%;
+  background-color:oldlace;
+  border:1px solid black;
+  min-height: 25px;
+  text-align: center;
+  margin-top:0;
+  position:relative;
+  float:left;
+}
+
+.title
+{
+  text-align:center;
+  font-size:1.3em;
+}
+
+.hideData
+{
+  display:none;
+}
+
+nav
+{
+  width:100%;
+  /*padding:.5%; */
+}
+
+section
+{
+  width:100%;
+  min-height: 600px;
+  padding:.5%;
+  position:relative;
+  float:left;
+}
+
+
+
+.td1
+{
+  padding: 1%;
+}
+
+.button
+{
+  padding:.5%;
+  background-color:rgb(240, 240, 240);
+  font-weight:bold;
+  font-size:1.1em;
+  min-width:100px;
+  border-style: outset;
+  border:1px solid black;
+  cursor:pointer;
+}
+
+.label
+{
+   background-color:rgb(240, 240, 240);
+   font-weight:bold;
+   text-align:left;
+   width: 200px;
+   padding: .5%;
+}
+
+
+.imageSize
+{ 
+  width:100%;
+}
+
+.dropdown
+{
+  font-size:1em;
+}
+
+.textbox 
+{
+
+  padding:1%;
+}
+
+.center
+{
+  text-align:center;
+}
+
+.table100
+{
+  width:100%;
+  /*text-align: center;  */
+}
+
+.center30
+{
+  width: 30%;
+  margin:auto;
+}
+
+
+.table50
+{
+  width:50%;
+  border:1px solid black;
+}
+
+.table50 td
+{
+  border:1px solid black;
+  text-align:left;
+  padding:1%;
+  margin:1%;
+}
+
+.table50 th
+{
+  background-color:rgb(0, 100, 200);
+  color:white;
+}
+
+.table select
+{
+  font-size:1.2em;
+}
+
+article
+{
+  width:98%;
+  position: relative;
+  float:left;
+  margin:.5%;
+  padding:.5%;
+  border:1px solid #0000ff;
+}
+
+
+
+.article50
+{
+  width:48.5%;
+  min-height: 450px;
+  border:1px solid #0000ff;
+  position: relative;
+  float:left;
+  padding:1%;
+  margin:.5%;
+}
+
+article > header
+{
+  font-size:1.2em;
+  font-weight: bold;
+  text-align: center;
+  background:#000080;
+  color:white;
+  border:1px solid #000000;
+  min-height: 30px;
+}
+
+article > div
+{
+  padding-top:1%;
+  padding-bottom:1%;
+  width:100%;
+  text-align:justify;
+}
+
+div > img
+{
+  position: relative;
+  float: left;
+  padding-top:1%;
+  padding-right:2%;
+  padding-bottom:1%;
+}
+
+footer
+{
+  width:100%;
+  background-color:oldlace;
+  border:1px solid black;
+  min-height: 25px;
+  padding:1%;
+  text-align:center;
+  position:relative;
+  float:left;
+}
+
+.text-danger
+{
+  font-style: italic;
+  color: red;
+}
+
+#puppy
+{
+  max-width: 250px;
+  max-height: 250px;
+}
